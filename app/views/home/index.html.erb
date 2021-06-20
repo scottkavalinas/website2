@@ -1,106 +1,136 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-.w3-bar-block .w3-bar-item {padding:20px}
-</style>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/stylesheets/personal.css" />
+  </head>
+  <body>
 
-<!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Close Menu</a>
-  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button"><a href="https://github.com/scottkavalinas">GitHub </a></a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"><a href="https://www.linkedin.com/in/scott-kavalinas-572093106/">LinkedIn</a></a>
-</nav>
 
-<!-- Top menu -->
-<div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
-    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-    <div class="w3-right w3-padding-16">Email</div>
-    <div class="w3-center w3-padding-16">My Interests</div>
-  </div>
-</div>
-  
-<!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-    <div class="w3-quarter">
-      <%= image_tag('evo.PNG', alt: 'Res Reno') %>
-      <h3><a href="https://www.linkedin.com/feed/update/urn:li:activity:6792888643922071552//">Software Development </a></h3>
-    </div>
-    <div class="w3-quarter">
-      <%= image_tag('rl.PNG', alt: 'RL') %>
-      <h3><a href="https://github.com/scottkavalinas/RL-Grid">Artificial Inteligence </a</h3>
-    </div>
-    <div class="w3-quarter">
-      <%= image_tag('mobile.PNG', alt: 'mobile') %>
-      <h3><a href="https://www.linkedin.com/feed/update/urn:li:activity:6760400098372546560/">Mobile Development </a></h3>
-    </div>
-    <div class="w3-quarter">
-      <%= image_tag('ds.PNG', alt: 'DS') %>
-      <h3><a href="https://github.com/scottkavalinas/stockPred">Data Science </a></h3>
-    </div>
-  </div>
-  
 
-  
-  <hr id="about">
+      <header id="header">
 
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32 w3-center">  
-    <h3>About Me</h3><br>
-    <%= image_tag('hs1.PNG', alt: 'Scott Kavalinas') %>
-    <div class="w3-padding-32">
-      <p>I am a Computing Science (2021) and Finance graduate (2017) from the University of Alberta in Edmonton, Alberta, Canada</p>
-    </div>
-  </div>
-  <hr>
-  
-  <!-- Footer -->
-  <footer class="w3-row-padding w3-padding-32">
-    <div class="w3-third">
+        <div class="logo"><a >Scott Kavalinas <span></span></a></div>
+        <div >
+      <%= image_tag('hs1.PNG', alt: 'Scott Kavalinas') %>
       
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </div>
-  
-    <div class="w3-third">
-      <h3>Scott Kavalinas</h3>
-      <ul class="w3-ul w3-hoverable">
-        <li class="w3-padding-16">
-          <span class="w3-large"><a href="https://github.com/scottkavalinas">GitHub </a></span><br>
+      </header>
+
+      <section id="main">
+        <div class="inner">
+
           
-        </li>
-        <li class="w3-padding-16">
-          <span class="w3-large"><a href="https://www.linkedin.com/in/scott-kavalinas-572093106/">LinkedIn</a></span><br>
-        </li> 
-      </ul>
-    </div>
+
+          <section id="Three" class="wrapper style2">
+            <header>
+              <h2 ><a href="https://github.com/scottkavalinas">GitHub </a></h2>
+              <h2 ><a href="https://www.linkedin.com/in/scott-kavalinas-572093106/">LinkedIn</a> </h2>
+              <h2 ><a href="/projects">Projects</a> </h2>
+            </header>
+  
+            </div>
+          </section>
 
 
-  </footer>
+    
+        </div>
+      </section>
 
-<!-- End page content -->
-</div>
+      <section id="main">
+        <div class="inner">
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+          
 
-</body>
+          <section id="Three" class="wrapper style2">
+            <header>
+              <h2 >Education</h2>
+            </header>
+            <head>
+                  <style>
+                      ruby.example {
+                          ruby-align: left;
+                      }
+                      rt.example {
+                          font-size: 22px;
+                          color: white;
+                      }
+                  </style>
+              </head>
+              <div>
+                <body>
+                    <ruby class="example">  
+                        <rt class="example">
+                        Bachelor of Commerce (2016) 
+                      </rt>
+                    </ruby>
+                </body>
+              </div>
+              <div>
+                <body>
+                    <ruby class="example">  
+                        <rt class="example">
+                        Major in Finance, Minor in Management Science 
+                      </rt>
+                    </ruby>
+                </body>
+              </div>
+              <div>
+                <body>
+                    <ruby class="example">  
+                        <rt class="example">
+                        University of Alberta School of Business, Edmonton, Alberta 
+                      </rt>
+                    </ruby>
+                </body>
+                <body>
+                    <ruby class="example">  
+                        <rt class="example">
+                        _______________________________________________________________________________
+                      </rt>
+                    </ruby>
+                </body>
+                <body>
+                    <ruby class="example">  
+                        <rt class="example">
+                        Bachelor of Science (2021) 
+                      </rt>
+                    </ruby>
+                </body>
+              </div>
+              <div>
+                <body>
+                    <ruby class="example">  
+                        <rt class="example">
+                        Specialization in Computing Science, Concentration in Mathematics 
+                      </rt>
+                    </ruby>
+                </body>
+              </div>
+              <div>
+                <body>
+                    <ruby class="example">  
+                        <rt class="example">
+                        University of Alberta, Edmonton, Alberta 
+                      </rt>
+                    </ruby>
+                </body>
+              </div>
+            </div>
+          </section>
+        
+        </div>
+      </section>
+
+
+    
+        </div>
+      </section>
+
+
+
+  </body>
 </html>
