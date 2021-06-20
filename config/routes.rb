@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/translate' => 'home#translate'
   get '/rl' => 'home#rl'
   get '/cgt' => 'home#cgt'
+  get '/fin' => 'home#fin'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
   
